@@ -6,3 +6,4 @@ torch
 accelerate
 torchvision
 torchaudio
+streamlit

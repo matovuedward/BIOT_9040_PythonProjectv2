@@ -5,9 +5,20 @@ import torch
 # Open-source model
 MODEL_NAME = "microsoft/phi-2"
 
+@st.cache_resource
+def load_model():
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+    model = AutoModelForCausalLM.from_pretrained(MODEL_NAME)
+    return tokenizer, model
+
+
+tokenizer, model = load_model()
 # Load tokenizer and model
-tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-model = AutoModelForCausalLM.from_pretrained(MODEL_NAME,device_map="auto")
+#tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+#model = AutoModelForCausalLM.from_pretrained(MODEL_NAME,device_map="auto")
+
+
+st.title("Phi-2 Chat")
 
 # Prompt
 #prompt = "how are you?"
