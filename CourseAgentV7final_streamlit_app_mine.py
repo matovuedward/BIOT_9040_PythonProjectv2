@@ -37,11 +37,13 @@ MAX_DISTANCE = 1.50
 @st.cache_resource
 def load_models():
 
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME,use_fast=True)
 
     model = AutoModelForCausalLM.from_pretrained(
         MODEL_NAME,
-        device_map="auto"
+        low_cpu_mem_usage=True,
+        dtype=torch.float32
+        #device_map="auto"
     )
 
     model.eval()
@@ -221,7 +223,8 @@ QUESTION:
             do_sample=False,
             repetition_penalty=1.05,
             eos_token_id=END_TOKEN_ID,
-            pad_token_id=tokenizer.eos_token_id
+            pad_token_id=tokenizer.eos_token_id,
+            use_cache = True
         )
 
     generated_ids = output_ids[0][input_token_count:]
