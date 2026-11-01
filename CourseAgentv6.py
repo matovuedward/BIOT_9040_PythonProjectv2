@@ -34,9 +34,9 @@ MODEL_NAME = "microsoft/Phi-3-mini-4k-instruct"
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, device_map="auto")
 model.eval()
-print("Model loaded successfully.")
-print(f"model device: {model.device}")
-print(model.hf_device_map)
+#print("Model loaded successfully.")
+#print(f"model device: {model.device}")
+#print(model.hf_device_map)
 
 
 # ==========================
