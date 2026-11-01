@@ -1,0 +1,1233 @@
+
+[     UTC     ] Logs for bifs614expertprojectfall2026-courseagentv9.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[15:05:58] 🚀 Starting up repository: 'bifs614expertproject_fall2026', branch: 'main', main module: 'CourseAgentV9Final_Streamlit.py'
+[15:05:58] 🐙 Cloning repository...
+[15:05:58] 🐙 Cloning into '/mount/src/bifs614expertproject_fall2026'...
+
+[15:05:58] 🐙 Cloned repository!
+[15:05:58] 🐙 Pulling code changes from Github...
+[15:05:59] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.14.10 environment at: /home/adminuser/venv
+Resolved 91 packages in 581ms
+Downloading torchvision (7.2MiB)
+Downloading nvidia-cuda-cupti (11.4MiB)
+Downloading sympy (6.0MiB)
+Downloading pygments (1.2MiB)
+Downloading nvidia-cuda-runtime (2.2MiB)
+Downloading numpy (15.9MiB)
+Downloading pyarrow (51.5MiB)
+Downloading nvidia-cufile (1.3MiB)
+Downloading transformers (12.4MiB)
+Downloading nvidia-cuda-cccl (3.7MiB)
+Downloading streamlit (9.9MiB)
+Downloading nvidia-cublas (386.1MiB)
+Downloading scipy (33.7MiB)[2026-10-31 15:06:00.050047] 
+Downloading nvidia-nccl-cu13 (206.0MiB)
+Downloading nvidia-nvshmem-cu13 (129.1MiB)
+Downloading hf-xet (4.1MiB)
+Downloading networkx [2026-10-31 15:06:00.051428] (2.0MiB)
+Downloading nvidia-cusparselt-cu13 [2026-10-31 15:06:00.052606] (162.3MiB)
+Downloading tokenizers (3.2MiB)
+Downloading triton (272.4MiB)
+Downloading nvidia-cuda-nvrtc (44.8MiB)
+Downloading pydeck (10.9MiB)
+Downloading nvidia-cusolver (217.4MiB)
+Downloading cuda-bindings (6.7MiB)[2026-10-31 15:06:00.054528] 
+Downloading nvidia-nvjitlink (40.5MiB)[2026-10-31 15:06:00.054988] 
+Downloading scikit-learn (8.7MiB)
+Downloading nvidia-cusparse [2026-10-31 15:06:00.056822] (144.0MiB)
+Downloading pillow (6.8MiB)
+Downloading nvidia-cufft (208.1MiB)
+Downloading pandas (11.5MiB)
+Downloading bitsandbytes (41.1MiB)
+Downloading nvidia-cudnn-cu13 (495.1MiB)[2026-10-31 15:06:00.062326] 
+Downloading torchaudio (1.7MiB)
+Downloading faiss-cpu (18.0MiB)
+Downloading torch (514.2MiB)
+ Downloaded pygments
+ Downloaded nvidia-cufile
+ Downloaded torchaudio
+ Downloaded networkx
+ Downloaded nvidia-cuda-runtime
+ Downloaded tokenizers
+ [2026-10-31 15:06:01.110160] Downloaded nvidia-cuda-cccl
+ Downloaded hf-xet
+ Downloaded sympy
+ Downloaded cuda-bindings
+ Downloaded pillow
+ Downloaded torchvision
+ Downloaded scikit-learn
+ Downloaded streamlit
+ Downloaded pydeck
+ Downloaded nvidia-cuda-cupti
+ Downloaded pandas
+ Downloaded transformers
+ Downloaded numpy
+ Downloaded faiss-cpu
+ Downloaded scipy
+ Downloaded nvidia-nvjitlink
+ Downloaded bitsandbytes
+ Downloaded nvidia-cuda-nvrtc
+ Downloaded pyarrow
+ Downloaded nvidia-nvshmem-cu13
+ Downloaded nvidia-cusparse
+ Downloaded nvidia-cusparselt-cu13
+ Downloaded nvidia-nccl-cu13
+ Downloaded nvidia-cufft
+ Downloaded nvidia-cusolver
+ Downloaded triton
+ Downloaded nvidia-cublas
+ Downloaded nvidia-cudnn-cu13
+ Downloaded torch
+Prepared 90 packages in 36.03s
+Installed 90 packages in 635ms
+ + accelerate==1.15.0
+ + altair==6.3.0
+ + annotated-doc==0.0.5
+ + anyio==4.15.[2026-10-31 15:06:36.692564] 1
+ + attrs==26.1.0
+ + bitsandbytes==0.50.2[2026-10-31 15:06:36.692799] 
+ + charset-normalizer==3.5.2
+ + click==8.5[2026-10-31 15:06:36.692993] .0
+ + cloudpickle==3.1.2
+ +[2026-10-31 15:06:36.693162]  cuda-bindings==13.4.4
+ + cuda-pathfinder==1[2026-10-31 15:06:36.693495] .8.5
+ + cuda-toolkit==13.2.2
+ [2026-10-31 15:06:36.693827] + faiss-cpu==1.15.1
+ + filelock[2026-10-31 15:06:36.694551] ==4.2.5
+ + fsspec==2026.9[2026-10-31 15:06:36.694717] .0
+ + h11==0.16.0
+ +[2026-10-31 15:06:36.694874]  hf-xet==1.8.0
+ + httpcore2==2.16.0
+ + httpx2==2.16.0[2026-10-31 15:06:36.695042] 
+ + huggingface-hub==2.4.0
+ + idna==3.20
+ [2026-10-31 15:06:36.695200] + itsdangerous==2.2.0
+ + jinja2==3[2026-10-31 15:06:36.695430] .1.6
+ + joblib==1.6.0
+ [2026-10-31 15:06:36.695641] + jsonschema==4.26.0
+ + jsonschema-specifications==2025[2026-10-31 15:06:36.695862] .9.1
+ + markdown-it-py==4.2.0
+ [2026-10-31 15:06:36.696021] + markupsafe==3.0.4
+ + mdurl==0.[2026-10-31 15:06:36.696167] 1.2
+ + mpmath==1.3.0
+ + narwhals[2026-10-31 15:06:36.696348] ==2.28.0
+ + networkx==3.7
+ +[2026-10-31 15:06:36.696503]  numpy==2.5.4
+ + nvidia-cublas==13.[2026-10-31 15:06:36.697241] 4.1.3
+ + nvidia-cuda-cccl==13.3.4.3.[2026-10-31 15:06:36.697401] 1
+ + nvidia-cuda-cupti==13.2.86
+ + nvidia-cuda-nvrtc[2026-10-31 15:06:36.697519] ==13.2.86
+ + nvidia-cuda-runtime==13.2.86[2026-10-31 15:06:36.697647] 
+ + nvidia-cudnn-cu13==9.26.0.51
+ + [2026-10-31 15:06:36.697902] nvidia-cufft==12.2.0.57
+ + nvidia-cufile==1.[2026-10-31 15:06:36.698204] 17.1.22
+ + nvidia-cusolver==12.2.0.11[2026-10-31 15:06:36.698743] 
+ + nvidia-cusparse==12.7.10.12
+ + nvidia-cusparselt-cu13[2026-10-31 15:06:36.698923] ==0.8.1
+ + nvidia-nccl-cu13==[2026-10-31 15:06:36.699103] 2.30.7
+ + nvidia-nvjitlink==13.4.92[2026-10-31 15:06:36.699314] 
+ + nvidia-nvshmem-cu13==3.7.2
+ + nvidia-nvtx==13.2.86
+ + packaging==26.3
+ + pandas==3.[2026-10-31 15:06:36.699557] 1.0
+ + pillow==13.0.0
+ + protobuf==7.36[2026-10-31 15:06:36.699716] .2
+ + psutil==7.2.2
+ +[2026-10-31 15:06:36.699907]  pyarrow==26.0.0
+ + pydeck==[2026-10-31 15:06:36.700036] 0.9.3
+ + pygments==2.21[2026-10-31 15:06:36.700127] .0
+ + python-dateutil==3.0.0
+ + python-multipart==0.0.33
+ + [2026-10-31 15:06:36.700373] pyyaml==6.0.3
+ + referencing==[2026-10-31 15:06:36.701234] 0.37.0
+ + regex==2026.9.[2026-10-31 15:06:36.701377] 29
+ + requests==2.34.2
+ [2026-10-31 15:06:36.701485] + rich==15.0.0
+ + [2026-10-31 15:06:36.701568] rpds-py==2026.9.1
+ + safetensors==0[2026-10-31 15:06:36.701645] .8.0
+ + scikit-learn==1.9.1[2026-10-31 15:06:36.701741] 
+ + scipy==1.18.1
+ +[2026-10-31 15:06:36.702253]  sentence-transformers==6.2.0
+ + setuptools[2026-10-31 15:06:36.702376] ==84.2.1
+ + shellingham==1.[2026-10-31 15:06:36.702464] 5.4
+ + six==1.17.0[2026-10-31 15:06:36.702540] 
+ + starlette==1.10.0
+ +[2026-10-31 15:06:36.702633]  streamlit==1.66.1
+ + sympy[2026-10-31 15:06:36.702719] ==1.14.0
+ + threadpoolctl==3[2026-10-31 15:06:36.702785] .7.0
+ + tokenizers==0.23.[2026-10-31 15:06:36.702850] 3
+ + torch==2.15.0
+ + torchaudio==[2026-10-31 15:06:36.702922] 2.11.1
+ + torchvision==0.29.2
+ + tqdm==4.70.1
+ [2026-10-31 15:06:36.702997] + transformers==5[2026-10-31 15:06:36.703582] .22.1
+ + triton==3.9.0
+ + truststore==0.10.5
+ + typer==0.27.3
+ + typing-extensions==4.16.0
+ + tzdata==2026.6
+ + urllib3==2.8.0
+ + uvicorn==0.54.0
+ + watchdog==6.0.0
+ + websockets==17.4
+Collecting certifi>=2026.10.19
+  Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+Installing collected packages: certifi
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2026.10.23
+    Uninstalling certifi-2026.10.23:
+      Successfully uninstalled certifi-2026.10.23
+Successfully installed certifi-2026.10.23
+Collecting pip>=26.2.2
+  Downloading pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Downloading pip-26.2.2-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 68.2 MB/s  0:00:00[2026-10-31 15:06:38.696182] 
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 26.2.2
+    Uninstalling pip-26.2.2:
+      Successfully uninstalled pip-26.2.2
+Successfully installed pip-26.2.2
+Checking if Streamlit is installed
+Found Streamlit version 1.66.1 in the environment
+Detected pyarrow 26.0.0 (known segfault, apache/arrow#50471). Replacing with pyarrow<25.
+Using uv pip install.
+Using Python 3.14.10 environment at: /home/adminuser/venv
+Resolved 1 package in 78ms
+Downloading pyarrow (46.6MiB)
+ Downloaded pyarrow
+Prepared 1 package in 717ms
+Uninstalled 1 package in 28ms
+Installed 1 package in 35ms
+ - pyarrow==26.0.0
+ + [2026-10-31 15:06:43.733800] pyarrow==24.0.0
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.14.10 environment at: /home/adminuser/venv
+Checked 1 package in 2ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[15:06:44] 🐍 Python dependencies were installed from /mount/src/bifs614expertproject_fall2026/requirements.txt using uv.
+Check if streamlit is installed
+Streamlit is already installed
+Collecting certifi>=2026.10.19
+  Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+Installing collected packages: certifi
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2026.10.23
+    Uninstalling certifi-2026.10.23:
+      Successfully uninstalled certifi-2026.10.23
+Successfully installed certifi-2026.10.23
+Collecting pip>=26.2.2
+  Downloading pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Downloading pip-26.2.2-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 79.9 MB/s  0:00:00[2026-10-31 15:06:46.953929] 
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 26.2.2
+    Uninstalling pip-26.2.2:
+      Successfully uninstalled pip-26.2.2
+Successfully installed pip-26.2.2
+[15:06:49] 📦 Processed dependencies!
+2026-10-31 15:06:51.438 Uvicorn server started on :::8501
+
+
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading course tutor...
+Using CPU.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s][2026-10-31 15:07:48.265672] Fetching 2 files:  50%|█████     | 1/2 [00:22<00:22, 22.80s/it][2026-10-31 15:07:57.739713] Fetching 2 files: 100%|██████████| 2/2 [00:32<00:00, 14.96s/it][2026-10-31 15:07:57.740838] Fetching 2 files: 100%|██████████| 2/2 [00:32<00:00, 16.14s/it]
+Loading weights:   0%|          | 0/195 [00:00<?, ?it/s][2026-10-31 15:07:59.806214] Loading weights:   1%|          | 1/195 [00:01<05:50,  1.81s/it]
+[15:05:58] 🚀 Starting up repository: 'bifs614expertproject_fall2026', branch: 'main', main module: 'CourseAgentV9Final_Streamlit.py'
+[15:05:58] 🐙 Cloning repository...
+[15:05:58] 🐙 Cloning into '/mount/src/bifs614expertproject_fall2026'...
+
+[15:05:58] 🐙 Cloned repository!
+[15:05:58] 🐙 Pulling code changes from Github...
+[15:05:59] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.14.10 environment at: /home/adminuser/venv
+Resolved 91 packages in 581ms
+Downloading torchvision (7.2MiB)
+Downloading nvidia-cuda-cupti (11.4MiB)
+Downloading sympy (6.0MiB)
+Downloading pygments (1.2MiB)
+Downloading nvidia-cuda-runtime (2.2MiB)
+Downloading numpy (15.9MiB)
+Downloading pyarrow (51.5MiB)
+Downloading nvidia-cufile (1.3MiB)
+Downloading transformers (12.4MiB)
+Downloading nvidia-cuda-cccl (3.7MiB)
+Downloading streamlit (9.9MiB)
+Downloading nvidia-cublas (386.1MiB)
+Downloading scipy (33.7MiB)[2026-10-31 15:06:00.050047] 
+Downloading nvidia-nccl-cu13 (206.0MiB)
+Downloading nvidia-nvshmem-cu13 (129.1MiB)
+Downloading hf-xet (4.1MiB)
+Downloading networkx [2026-10-31 15:06:00.051428] (2.0MiB)
+Downloading nvidia-cusparselt-cu13 [2026-10-31 15:06:00.052606] (162.3MiB)
+Downloading tokenizers (3.2MiB)
+Downloading triton (272.4MiB)
+Downloading nvidia-cuda-nvrtc (44.8MiB)
+Downloading pydeck (10.9MiB)
+Downloading nvidia-cusolver (217.4MiB)
+Downloading cuda-bindings (6.7MiB)[2026-10-31 15:06:00.054528] 
+Downloading nvidia-nvjitlink (40.5MiB)[2026-10-31 15:06:00.054988] 
+Downloading scikit-learn (8.7MiB)
+Downloading nvidia-cusparse [2026-10-31 15:06:00.056822] (144.0MiB)
+Downloading pillow (6.8MiB)
+Downloading nvidia-cufft (208.1MiB)
+Downloading pandas (11.5MiB)
+Downloading bitsandbytes (41.1MiB)
+Downloading nvidia-cudnn-cu13 (495.1MiB)[2026-10-31 15:06:00.062326] 
+Downloading torchaudio (1.7MiB)
+Downloading faiss-cpu (18.0MiB)
+Downloading torch (514.2MiB)
+ Downloaded pygments
+ Downloaded nvidia-cufile
+ Downloaded torchaudio
+ Downloaded networkx
+ Downloaded nvidia-cuda-runtime
+ Downloaded tokenizers
+ [2026-10-31 15:06:01.110160] Downloaded nvidia-cuda-cccl
+ Downloaded hf-xet
+ Downloaded sympy
+ Downloaded cuda-bindings
+ Downloaded pillow
+ Downloaded torchvision
+ Downloaded scikit-learn
+ Downloaded streamlit
+ Downloaded pydeck
+ Downloaded nvidia-cuda-cupti
+ Downloaded pandas
+ Downloaded transformers
+ Downloaded numpy
+ Downloaded faiss-cpu
+ Downloaded scipy
+ Downloaded nvidia-nvjitlink
+ Downloaded bitsandbytes
+ Downloaded nvidia-cuda-nvrtc
+ Downloaded pyarrow
+ Downloaded nvidia-nvshmem-cu13
+ Downloaded nvidia-cusparse
+ Downloaded nvidia-cusparselt-cu13
+ Downloaded nvidia-nccl-cu13
+ Downloaded nvidia-cufft
+ Downloaded nvidia-cusolver
+ Downloaded triton
+ Downloaded nvidia-cublas
+ Downloaded nvidia-cudnn-cu13
+ Downloaded torch
+Prepared 90 packages in 36.03s
+Installed 90 packages in 635ms
+ + accelerate==1.15.0
+ + altair==6.3.0
+ + annotated-doc==0.0.5
+ + anyio==4.15.[2026-10-31 15:06:36.692564] 1
+ + attrs==26.1.0
+ + bitsandbytes==0.50.2[2026-10-31 15:06:36.692799] 
+ + charset-normalizer==3.5.2
+ + click==8.5[2026-10-31 15:06:36.692993] .0
+ + cloudpickle==3.1.2
+ +[2026-10-31 15:06:36.693162]  cuda-bindings==13.4.4
+ + cuda-pathfinder==1[2026-10-31 15:06:36.693495] .8.5
+ + cuda-toolkit==13.2.2
+ [2026-10-31 15:06:36.693827] + faiss-cpu==1.15.1
+ + filelock[2026-10-31 15:06:36.694551] ==4.2.5
+ + fsspec==2026.9[2026-10-31 15:06:36.694717] .0
+ + h11==0.16.0
+ +[2026-10-31 15:06:36.694874]  hf-xet==1.8.0
+ + httpcore2==2.16.0
+ + httpx2==2.16.0[2026-10-31 15:06:36.695042] 
+ + huggingface-hub==2.4.0
+ + idna==3.20
+ [2026-10-31 15:06:36.695200] + itsdangerous==2.2.0
+ + jinja2==3[2026-10-31 15:06:36.695430] .1.6
+ + joblib==1.6.0
+ [2026-10-31 15:06:36.695641] + jsonschema==4.26.0
+ + jsonschema-specifications==2025[2026-10-31 15:06:36.695862] .9.1
+ + markdown-it-py==4.2.0
+ [2026-10-31 15:06:36.696021] + markupsafe==3.0.4
+ + mdurl==0.[2026-10-31 15:06:36.696167] 1.2
+ + mpmath==1.3.0
+ + narwhals[2026-10-31 15:06:36.696348] ==2.28.0
+ + networkx==3.7
+ +[2026-10-31 15:06:36.696503]  numpy==2.5.4
+ + nvidia-cublas==13.[2026-10-31 15:06:36.697241] 4.1.3
+ + nvidia-cuda-cccl==13.3.4.3.[2026-10-31 15:06:36.697401] 1
+ + nvidia-cuda-cupti==13.2.86
+ + nvidia-cuda-nvrtc[2026-10-31 15:06:36.697519] ==13.2.86
+ + nvidia-cuda-runtime==13.2.86[2026-10-31 15:06:36.697647] 
+ + nvidia-cudnn-cu13==9.26.0.51
+ + [2026-10-31 15:06:36.697902] nvidia-cufft==12.2.0.57
+ + nvidia-cufile==1.[2026-10-31 15:06:36.698204] 17.1.22
+ + nvidia-cusolver==12.2.0.11[2026-10-31 15:06:36.698743] 
+ + nvidia-cusparse==12.7.10.12
+ + nvidia-cusparselt-cu13[2026-10-31 15:06:36.698923] ==0.8.1
+ + nvidia-nccl-cu13==[2026-10-31 15:06:36.699103] 2.30.7
+ + nvidia-nvjitlink==13.4.92[2026-10-31 15:06:36.699314] 
+ + nvidia-nvshmem-cu13==3.7.2
+ + nvidia-nvtx==13.2.86
+ + packaging==26.3
+ + pandas==3.[2026-10-31 15:06:36.699557] 1.0
+ + pillow==13.0.0
+ + protobuf==7.36[2026-10-31 15:06:36.699716] .2
+ + psutil==7.2.2
+ +[2026-10-31 15:06:36.699907]  pyarrow==26.0.0
+ + pydeck==[2026-10-31 15:06:36.700036] 0.9.3
+ + pygments==2.21[2026-10-31 15:06:36.700127] .0
+ + python-dateutil==3.0.0
+ + python-multipart==0.0.33
+ + [2026-10-31 15:06:36.700373] pyyaml==6.0.3
+ + referencing==[2026-10-31 15:06:36.701234] 0.37.0
+ + regex==2026.9.[2026-10-31 15:06:36.701377] 29
+ + requests==2.34.2
+ [2026-10-31 15:06:36.701485] + rich==15.0.0
+ + [2026-10-31 15:06:36.701568] rpds-py==2026.9.1
+ + safetensors==0[2026-10-31 15:06:36.701645] .8.0
+ + scikit-learn==1.9.1[2026-10-31 15:06:36.701741] 
+ + scipy==1.18.1
+ +[2026-10-31 15:06:36.702253]  sentence-transformers==6.2.0
+ + setuptools[2026-10-31 15:06:36.702376] ==84.2.1
+ + shellingham==1.[2026-10-31 15:06:36.702464] 5.4
+ + six==1.17.0[2026-10-31 15:06:36.702540] 
+ + starlette==1.10.0
+ +[2026-10-31 15:06:36.702633]  streamlit==1.66.1
+ + sympy[2026-10-31 15:06:36.702719] ==1.14.0
+ + threadpoolctl==3[2026-10-31 15:06:36.702785] .7.0
+ + tokenizers==0.23.[2026-10-31 15:06:36.702850] 3
+ + torch==2.15.0
+ + torchaudio==[2026-10-31 15:06:36.702922] 2.11.1
+ + torchvision==0.29.2
+ + tqdm==4.70.1
+ [2026-10-31 15:06:36.702997] + transformers==5[2026-10-31 15:06:36.703582] .22.1
+ + triton==3.9.0
+ + truststore==0.10.5
+ + typer==0.27.3
+ + typing-extensions==4.16.0
+ + tzdata==2026.6
+ + urllib3==2.8.0
+ + uvicorn==0.54.0
+ + watchdog==6.0.0
+ + websockets==17.4
+Collecting certifi>=2026.10.19
+  Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+Installing collected packages: certifi
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2026.10.23
+    Uninstalling certifi-2026.10.23:
+      Successfully uninstalled certifi-2026.10.23
+Successfully installed certifi-2026.10.23
+Collecting pip>=26.2.2
+  Downloading pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Downloading pip-26.2.2-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 68.2 MB/s  0:00:00[2026-10-31 15:06:38.696182] 
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 26.2.2
+    Uninstalling pip-26.2.2:
+      Successfully uninstalled pip-26.2.2
+Successfully installed pip-26.2.2
+Checking if Streamlit is installed
+Found Streamlit version 1.66.1 in the environment
+Detected pyarrow 26.0.0 (known segfault, apache/arrow#50471). Replacing with pyarrow<25.
+Using uv pip install.
+Using Python 3.14.10 environment at: /home/adminuser/venv
+Resolved 1 package in 78ms
+Downloading pyarrow (46.6MiB)
+ Downloaded pyarrow
+Prepared 1 package in 717ms
+Uninstalled 1 package in 28ms
+Installed 1 package in 35ms
+ - pyarrow==26.0.0
+ + [2026-10-31 15:06:43.733800] pyarrow==24.0.0
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.14.10 environment at: /home/adminuser/venv
+Checked 1 package in 2ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[15:06:44] 🐍 Python dependencies were installed from /mount/src/bifs614expertproject_fall2026/requirements.txt using uv.
+Check if streamlit is installed
+Streamlit is already installed
+Collecting certifi>=2026.10.19
+  Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+Installing collected packages: certifi
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2026.10.23
+    Uninstalling certifi-2026.10.23:
+      Successfully uninstalled certifi-2026.10.23
+Successfully installed certifi-2026.10.23
+Collecting pip>=26.2.2
+  Downloading pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Downloading pip-26.2.2-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 79.9 MB/s  0:00:00[2026-10-31 15:06:46.953929] 
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 26.2.2
+    Uninstalling pip-26.2.2:
+      Successfully uninstalled pip-26.2.2
+Successfully installed pip-26.2.2
+[15:06:49] 📦 Processed dependencies!
+2026-10-31 15:06:51.438 Uvicorn server started on :::8501
+
+
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading course tutor...
+Using CPU.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s][2026-10-31 15:07:48.265672] Fetching 2 files:  50%|█████     | 1/2 [00:22<00:22, 22.80s/it][2026-10-31 15:07:57.739713] Fetching 2 files: 100%|██████████| 2/2 [00:32<00:00, 14.96s/it][2026-10-31 15:07:57.740838] Fetching 2 files: 100%|██████████| 2/2 [00:32<00:00, 16.14s/it]
+Loading weights:   0%|          | 0/195 [00:00<?, ?it/s][2026-10-31 15:07:59.806214] Loading weights:   1%|          | 1/195 [00:01<05:50,  1.81s/it]
+[15:05:58] 🚀 Starting up repository: 'bifs614expertproject_fall2026', branch: 'main', main module: 'CourseAgentV9Final_Streamlit.py'
+[15:05:58] 🐙 Cloning repository...
+[15:05:58] 🐙 Cloning into '/mount/src/bifs614expertproject_fall2026'...
+
+[15:05:58] 🐙 Cloned repository!
+[15:05:58] 🐙 Pulling code changes from Github...
+[15:05:59] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.14.10 environment at: /home/adminuser/venv
+Resolved 91 packages in 581ms
+Downloading torchvision (7.2MiB)
+Downloading nvidia-cuda-cupti (11.4MiB)
+Downloading sympy (6.0MiB)
+Downloading pygments (1.2MiB)
+Downloading nvidia-cuda-runtime (2.2MiB)
+Downloading numpy (15.9MiB)
+Downloading pyarrow (51.5MiB)
+Downloading nvidia-cufile (1.3MiB)
+Downloading transformers (12.4MiB)
+Downloading nvidia-cuda-cccl (3.7MiB)
+Downloading streamlit (9.9MiB)
+Downloading nvidia-cublas (386.1MiB)
+Downloading scipy (33.7MiB)[2026-10-31 15:06:00.050047] 
+Downloading nvidia-nccl-cu13 (206.0MiB)
+Downloading nvidia-nvshmem-cu13 (129.1MiB)
+Downloading hf-xet (4.1MiB)
+Downloading networkx [2026-10-31 15:06:00.051428] (2.0MiB)
+Downloading nvidia-cusparselt-cu13 [2026-10-31 15:06:00.052606] (162.3MiB)
+Downloading tokenizers (3.2MiB)
+Downloading triton (272.4MiB)
+Downloading nvidia-cuda-nvrtc (44.8MiB)
+Downloading pydeck (10.9MiB)
+Downloading nvidia-cusolver (217.4MiB)
+Downloading cuda-bindings (6.7MiB)[2026-10-31 15:06:00.054528] 
+Downloading nvidia-nvjitlink (40.5MiB)[2026-10-31 15:06:00.054988] 
+Downloading scikit-learn (8.7MiB)
+Downloading nvidia-cusparse [2026-10-31 15:06:00.056822] (144.0MiB)
+Downloading pillow (6.8MiB)
+Downloading nvidia-cufft (208.1MiB)
+Downloading pandas (11.5MiB)
+Downloading bitsandbytes (41.1MiB)
+Downloading nvidia-cudnn-cu13 (495.1MiB)[2026-10-31 15:06:00.062326] 
+Downloading torchaudio (1.7MiB)
+Downloading faiss-cpu (18.0MiB)
+Downloading torch (514.2MiB)
+ Downloaded pygments
+ Downloaded nvidia-cufile
+ Downloaded torchaudio
+ Downloaded networkx
+ Downloaded nvidia-cuda-runtime
+ Downloaded tokenizers
+ [2026-10-31 15:06:01.110160] Downloaded nvidia-cuda-cccl
+ Downloaded hf-xet
+ Downloaded sympy
+ Downloaded cuda-bindings
+ Downloaded pillow
+ Downloaded torchvision
+ Downloaded scikit-learn
+ Downloaded streamlit
+ Downloaded pydeck
+ Downloaded nvidia-cuda-cupti
+ Downloaded pandas
+ Downloaded transformers
+ Downloaded numpy
+ Downloaded faiss-cpu
+ Downloaded scipy
+ Downloaded nvidia-nvjitlink
+ Downloaded bitsandbytes
+ Downloaded nvidia-cuda-nvrtc
+ Downloaded pyarrow
+ Downloaded nvidia-nvshmem-cu13
+ Downloaded nvidia-cusparse
+ Downloaded nvidia-cusparselt-cu13
+ Downloaded nvidia-nccl-cu13
+ Downloaded nvidia-cufft
+ Downloaded nvidia-cusolver
+ Downloaded triton
+ Downloaded nvidia-cublas
+ Downloaded nvidia-cudnn-cu13
+ Downloaded torch
+Prepared 90 packages in 36.03s
+Installed 90 packages in 635ms
+ + accelerate==1.15.0
+ + altair==6.3.0
+ + annotated-doc==0.0.5
+ + anyio==4.15.[2026-10-31 15:06:36.692564] 1
+ + attrs==26.1.0
+ + bitsandbytes==0.50.2[2026-10-31 15:06:36.692799] 
+ + charset-normalizer==3.5.2
+ + click==8.5[2026-10-31 15:06:36.692993] .0
+ + cloudpickle==3.1.2
+ +[2026-10-31 15:06:36.693162]  cuda-bindings==13.4.4
+ + cuda-pathfinder==1[2026-10-31 15:06:36.693495] .8.5
+ + cuda-toolkit==13.2.2
+ [2026-10-31 15:06:36.693827] + faiss-cpu==1.15.1
+ + filelock[2026-10-31 15:06:36.694551] ==4.2.5
+ + fsspec==2026.9[2026-10-31 15:06:36.694717] .0
+ + h11==0.16.0
+ +[2026-10-31 15:06:36.694874]  hf-xet==1.8.0
+ + httpcore2==2.16.0
+ + httpx2==2.16.0[2026-10-31 15:06:36.695042] 
+ + huggingface-hub==2.4.0
+ + idna==3.20
+ [2026-10-31 15:06:36.695200] + itsdangerous==2.2.0
+ + jinja2==3[2026-10-31 15:06:36.695430] .1.6
+ + joblib==1.6.0
+ [2026-10-31 15:06:36.695641] + jsonschema==4.26.0
+ + jsonschema-specifications==2025[2026-10-31 15:06:36.695862] .9.1
+ + markdown-it-py==4.2.0
+ [2026-10-31 15:06:36.696021] + markupsafe==3.0.4
+ + mdurl==0.[2026-10-31 15:06:36.696167] 1.2
+ + mpmath==1.3.0
+ + narwhals[2026-10-31 15:06:36.696348] ==2.28.0
+ + networkx==3.7
+ +[2026-10-31 15:06:36.696503]  numpy==2.5.4
+ + nvidia-cublas==13.[2026-10-31 15:06:36.697241] 4.1.3
+ + nvidia-cuda-cccl==13.3.4.3.[2026-10-31 15:06:36.697401] 1
+ + nvidia-cuda-cupti==13.2.86
+ + nvidia-cuda-nvrtc[2026-10-31 15:06:36.697519] ==13.2.86
+ + nvidia-cuda-runtime==13.2.86[2026-10-31 15:06:36.697647] 
+ + nvidia-cudnn-cu13==9.26.0.51
+ + [2026-10-31 15:06:36.697902] nvidia-cufft==12.2.0.57
+ + nvidia-cufile==1.[2026-10-31 15:06:36.698204] 17.1.22
+ + nvidia-cusolver==12.2.0.11[2026-10-31 15:06:36.698743] 
+ + nvidia-cusparse==12.7.10.12
+ + nvidia-cusparselt-cu13[2026-10-31 15:06:36.698923] ==0.8.1
+ + nvidia-nccl-cu13==[2026-10-31 15:06:36.699103] 2.30.7
+ + nvidia-nvjitlink==13.4.92[2026-10-31 15:06:36.699314] 
+ + nvidia-nvshmem-cu13==3.7.2
+ + nvidia-nvtx==13.2.86
+ + packaging==26.3
+ + pandas==3.[2026-10-31 15:06:36.699557] 1.0
+ + pillow==13.0.0
+ + protobuf==7.36[2026-10-31 15:06:36.699716] .2
+ + psutil==7.2.2
+ +[2026-10-31 15:06:36.699907]  pyarrow==26.0.0
+ + pydeck==[2026-10-31 15:06:36.700036] 0.9.3
+ + pygments==2.21[2026-10-31 15:06:36.700127] .0
+ + python-dateutil==3.0.0
+ + python-multipart==0.0.33
+ + [2026-10-31 15:06:36.700373] pyyaml==6.0.3
+ + referencing==[2026-10-31 15:06:36.701234] 0.37.0
+ + regex==2026.9.[2026-10-31 15:06:36.701377] 29
+ + requests==2.34.2
+ [2026-10-31 15:06:36.701485] + rich==15.0.0
+ + [2026-10-31 15:06:36.701568] rpds-py==2026.9.1
+ + safetensors==0[2026-10-31 15:06:36.701645] .8.0
+ + scikit-learn==1.9.1[2026-10-31 15:06:36.701741] 
+ + scipy==1.18.1
+ +[2026-10-31 15:06:36.702253]  sentence-transformers==6.2.0
+ + setuptools[2026-10-31 15:06:36.702376] ==84.2.1
+ + shellingham==1.[2026-10-31 15:06:36.702464] 5.4
+ + six==1.17.0[2026-10-31 15:06:36.702540] 
+ + starlette==1.10.0
+ +[2026-10-31 15:06:36.702633]  streamlit==1.66.1
+ + sympy[2026-10-31 15:06:36.702719] ==1.14.0
+ + threadpoolctl==3[2026-10-31 15:06:36.702785] .7.0
+ + tokenizers==0.23.[2026-10-31 15:06:36.702850] 3
+ + torch==2.15.0
+ + torchaudio==[2026-10-31 15:06:36.702922] 2.11.1
+ + torchvision==0.29.2
+ + tqdm==4.70.1
+ [2026-10-31 15:06:36.702997] + transformers==5[2026-10-31 15:06:36.703582] .22.1
+ + triton==3.9.0
+ + truststore==0.10.5
+ + typer==0.27.3
+ + typing-extensions==4.16.0
+ + tzdata==2026.6
+ + urllib3==2.8.0
+ + uvicorn==0.54.0
+ + watchdog==6.0.0
+ + websockets==17.4
+Collecting certifi>=2026.10.19
+  Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+Installing collected packages: certifi
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2026.10.23
+    Uninstalling certifi-2026.10.23:
+      Successfully uninstalled certifi-2026.10.23
+Successfully installed certifi-2026.10.23
+Collecting pip>=26.2.2
+  Downloading pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Downloading pip-26.2.2-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 68.2 MB/s  0:00:00[2026-10-31 15:06:38.696182] 
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 26.2.2
+    Uninstalling pip-26.2.2:
+      Successfully uninstalled pip-26.2.2
+Successfully installed pip-26.2.2
+Checking if Streamlit is installed
+Found Streamlit version 1.66.1 in the environment
+Detected pyarrow 26.0.0 (known segfault, apache/arrow#50471). Replacing with pyarrow<25.
+Using uv pip install.
+Using Python 3.14.10 environment at: /home/adminuser/venv
+Resolved 1 package in 78ms
+Downloading pyarrow (46.6MiB)
+ Downloaded pyarrow
+Prepared 1 package in 717ms
+Uninstalled 1 package in 28ms
+Installed 1 package in 35ms
+ - pyarrow==26.0.0
+ + [2026-10-31 15:06:43.733800] pyarrow==24.0.0
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.14.10 environment at: /home/adminuser/venv
+Checked 1 package in 2ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[15:06:44] 🐍 Python dependencies were installed from /mount/src/bifs614expertproject_fall2026/requirements.txt using uv.
+Check if streamlit is installed
+Streamlit is already installed
+Collecting certifi>=2026.10.19
+  Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+Installing collected packages: certifi
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2026.10.23
+    Uninstalling certifi-2026.10.23:
+      Successfully uninstalled certifi-2026.10.23
+Successfully installed certifi-2026.10.23
+Collecting pip>=26.2.2
+  Downloading pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Downloading pip-26.2.2-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 79.9 MB/s  0:00:00[2026-10-31 15:06:46.953929] 
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 26.2.2
+    Uninstalling pip-26.2.2:
+      Successfully uninstalled pip-26.2.2
+Successfully installed pip-26.2.2
+[15:06:49] 📦 Processed dependencies!
+2026-10-31 15:06:51.438 Uvicorn server started on :::8501
+
+
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading course tutor...
+Using CPU.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s][2026-10-31 15:07:48.265672] Fetching 2 files:  50%|█████     | 1/2 [00:22<00:22, 22.80s/it][2026-10-31 15:07:57.739713] Fetching 2 files: 100%|██████████| 2/2 [00:32<00:00, 14.96s/it][2026-10-31 15:07:57.740838] Fetching 2 files: 100%|██████████| 2/2 [00:32<00:00, 16.14s/it]
+Loading weights:   0%|          | 0/195 [00:00<?, ?it/s][2026-10-31 15:07:59.806214] Loading weights:   1%|          | 1/195 [00:01<05:50,  1.81s/it]
+[15:05:58] 🚀 Starting up repository: 'bifs614expertproject_fall2026', branch: 'main', main module: 'CourseAgentV9Final_Streamlit.py'
+[15:05:58] 🐙 Cloning repository...
+[15:05:58] 🐙 Cloning into '/mount/src/bifs614expertproject_fall2026'...
+
+[15:05:58] 🐙 Cloned repository!
+[15:05:58] 🐙 Pulling code changes from Github...
+[15:05:59] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.14.10 environment at: /home/adminuser/venv
+Resolved 91 packages in 581ms
+Downloading torchvision (7.2MiB)
+Downloading nvidia-cuda-cupti (11.4MiB)
+Downloading sympy (6.0MiB)
+Downloading pygments (1.2MiB)
+Downloading nvidia-cuda-runtime (2.2MiB)
+Downloading numpy (15.9MiB)
+Downloading pyarrow (51.5MiB)
+Downloading nvidia-cufile (1.3MiB)
+Downloading transformers (12.4MiB)
+Downloading nvidia-cuda-cccl (3.7MiB)
+Downloading streamlit (9.9MiB)
+Downloading nvidia-cublas (386.1MiB)
+Downloading scipy (33.7MiB)[2026-10-31 15:06:00.050047] 
+Downloading nvidia-nccl-cu13 (206.0MiB)
+Downloading nvidia-nvshmem-cu13 (129.1MiB)
+Downloading hf-xet (4.1MiB)
+Downloading networkx [2026-10-31 15:06:00.051428] (2.0MiB)
+Downloading nvidia-cusparselt-cu13 [2026-10-31 15:06:00.052606] (162.3MiB)
+Downloading tokenizers (3.2MiB)
+Downloading triton (272.4MiB)
+Downloading nvidia-cuda-nvrtc (44.8MiB)
+Downloading pydeck (10.9MiB)
+Downloading nvidia-cusolver (217.4MiB)
+Downloading cuda-bindings (6.7MiB)[2026-10-31 15:06:00.054528] 
+Downloading nvidia-nvjitlink (40.5MiB)[2026-10-31 15:06:00.054988] 
+Downloading scikit-learn (8.7MiB)
+Downloading nvidia-cusparse [2026-10-31 15:06:00.056822] (144.0MiB)
+Downloading pillow (6.8MiB)
+Downloading nvidia-cufft (208.1MiB)
+Downloading pandas (11.5MiB)
+Downloading bitsandbytes (41.1MiB)
+Downloading nvidia-cudnn-cu13 (495.1MiB)[2026-10-31 15:06:00.062326] 
+Downloading torchaudio (1.7MiB)
+Downloading faiss-cpu (18.0MiB)
+Downloading torch (514.2MiB)
+ Downloaded pygments
+ Downloaded nvidia-cufile
+ Downloaded torchaudio
+ Downloaded networkx
+ Downloaded nvidia-cuda-runtime
+ Downloaded tokenizers
+ [2026-10-31 15:06:01.110160] Downloaded nvidia-cuda-cccl
+ Downloaded hf-xet
+ Downloaded sympy
+ Downloaded cuda-bindings
+ Downloaded pillow
+ Downloaded torchvision
+ Downloaded scikit-learn
+ Downloaded streamlit
+ Downloaded pydeck
+ Downloaded nvidia-cuda-cupti
+ Downloaded pandas
+ Downloaded transformers
+ Downloaded numpy
+ Downloaded faiss-cpu
+ Downloaded scipy
+ Downloaded nvidia-nvjitlink
+ Downloaded bitsandbytes
+ Downloaded nvidia-cuda-nvrtc
+ Downloaded pyarrow
+ Downloaded nvidia-nvshmem-cu13
+ Downloaded nvidia-cusparse
+ Downloaded nvidia-cusparselt-cu13
+ Downloaded nvidia-nccl-cu13
+ Downloaded nvidia-cufft
+ Downloaded nvidia-cusolver
+ Downloaded triton
+ Downloaded nvidia-cublas
+ Downloaded nvidia-cudnn-cu13
+ Downloaded torch
+Prepared 90 packages in 36.03s
+Installed 90 packages in 635ms
+ + accelerate==1.15.0
+ + altair==6.3.0
+ + annotated-doc==0.0.5
+ + anyio==4.15.[2026-10-31 15:06:36.692564] 1
+ + attrs==26.1.0
+ + bitsandbytes==0.50.2[2026-10-31 15:06:36.692799] 
+ + charset-normalizer==3.5.2
+ + click==8.5[2026-10-31 15:06:36.692993] .0
+ + cloudpickle==3.1.2
+ +[2026-10-31 15:06:36.693162]  cuda-bindings==13.4.4
+ + cuda-pathfinder==1[2026-10-31 15:06:36.693495] .8.5
+ + cuda-toolkit==13.2.2
+ [2026-10-31 15:06:36.693827] + faiss-cpu==1.15.1
+ + filelock[2026-10-31 15:06:36.694551] ==4.2.5
+ + fsspec==2026.9[2026-10-31 15:06:36.694717] .0
+ + h11==0.16.0
+ +[2026-10-31 15:06:36.694874]  hf-xet==1.8.0
+ + httpcore2==2.16.0
+ + httpx2==2.16.0[2026-10-31 15:06:36.695042] 
+ + huggingface-hub==2.4.0
+ + idna==3.20
+ [2026-10-31 15:06:36.695200] + itsdangerous==2.2.0
+ + jinja2==3[2026-10-31 15:06:36.695430] .1.6
+ + joblib==1.6.0
+ [2026-10-31 15:06:36.695641] + jsonschema==4.26.0
+ + jsonschema-specifications==2025[2026-10-31 15:06:36.695862] .9.1
+ + markdown-it-py==4.2.0
+ [2026-10-31 15:06:36.696021] + markupsafe==3.0.4
+ + mdurl==0.[2026-10-31 15:06:36.696167] 1.2
+ + mpmath==1.3.0
+ + narwhals[2026-10-31 15:06:36.696348] ==2.28.0
+ + networkx==3.7
+ +[2026-10-31 15:06:36.696503]  numpy==2.5.4
+ + nvidia-cublas==13.[2026-10-31 15:06:36.697241] 4.1.3
+ + nvidia-cuda-cccl==13.3.4.3.[2026-10-31 15:06:36.697401] 1
+ + nvidia-cuda-cupti==13.2.86
+ + nvidia-cuda-nvrtc[2026-10-31 15:06:36.697519] ==13.2.86
+ + nvidia-cuda-runtime==13.2.86[2026-10-31 15:06:36.697647] 
+ + nvidia-cudnn-cu13==9.26.0.51
+ + [2026-10-31 15:06:36.697902] nvidia-cufft==12.2.0.57
+ + nvidia-cufile==1.[2026-10-31 15:06:36.698204] 17.1.22
+ + nvidia-cusolver==12.2.0.11[2026-10-31 15:06:36.698743] 
+ + nvidia-cusparse==12.7.10.12
+ + nvidia-cusparselt-cu13[2026-10-31 15:06:36.698923] ==0.8.1
+ + nvidia-nccl-cu13==[2026-10-31 15:06:36.699103] 2.30.7
+ + nvidia-nvjitlink==13.4.92[2026-10-31 15:06:36.699314] 
+ + nvidia-nvshmem-cu13==3.7.2
+ + nvidia-nvtx==13.2.86
+ + packaging==26.3
+ + pandas==3.[2026-10-31 15:06:36.699557] 1.0
+ + pillow==13.0.0
+ + protobuf==7.36[2026-10-31 15:06:36.699716] .2
+ + psutil==7.2.2
+ +[2026-10-31 15:06:36.699907]  pyarrow==26.0.0
+ + pydeck==[2026-10-31 15:06:36.700036] 0.9.3
+ + pygments==2.21[2026-10-31 15:06:36.700127] .0
+ + python-dateutil==3.0.0
+ + python-multipart==0.0.33
+ + [2026-10-31 15:06:36.700373] pyyaml==6.0.3
+ + referencing==[2026-10-31 15:06:36.701234] 0.37.0
+ + regex==2026.9.[2026-10-31 15:06:36.701377] 29
+ + requests==2.34.2
+ [2026-10-31 15:06:36.701485] + rich==15.0.0
+ + [2026-10-31 15:06:36.701568] rpds-py==2026.9.1
+ + safetensors==0[2026-10-31 15:06:36.701645] .8.0
+ + scikit-learn==1.9.1[2026-10-31 15:06:36.701741] 
+ + scipy==1.18.1
+ +[2026-10-31 15:06:36.702253]  sentence-transformers==6.2.0
+ + setuptools[2026-10-31 15:06:36.702376] ==84.2.1
+ + shellingham==1.[2026-10-31 15:06:36.702464] 5.4
+ + six==1.17.0[2026-10-31 15:06:36.702540] 
+ + starlette==1.10.0
+ +[2026-10-31 15:06:36.702633]  streamlit==1.66.1
+ + sympy[2026-10-31 15:06:36.702719] ==1.14.0
+ + threadpoolctl==3[2026-10-31 15:06:36.702785] .7.0
+ + tokenizers==0.23.[2026-10-31 15:06:36.702850] 3
+ + torch==2.15.0
+ + torchaudio==[2026-10-31 15:06:36.702922] 2.11.1
+ + torchvision==0.29.2
+ + tqdm==4.70.1
+ [2026-10-31 15:06:36.702997] + transformers==5[2026-10-31 15:06:36.703582] .22.1
+ + triton==3.9.0
+ + truststore==0.10.5
+ + typer==0.27.3
+ + typing-extensions==4.16.0
+ + tzdata==2026.6
+ + urllib3==2.8.0
+ + uvicorn==0.54.0
+ + watchdog==6.0.0
+ + websockets==17.4
+Collecting certifi>=2026.10.19
+  Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+Installing collected packages: certifi
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2026.10.23
+    Uninstalling certifi-2026.10.23:
+      Successfully uninstalled certifi-2026.10.23
+Successfully installed certifi-2026.10.23
+Collecting pip>=26.2.2
+  Downloading pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Downloading pip-26.2.2-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 68.2 MB/s  0:00:00[2026-10-31 15:06:38.696182] 
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 26.2.2
+    Uninstalling pip-26.2.2:
+      Successfully uninstalled pip-26.2.2
+Successfully installed pip-26.2.2
+Checking if Streamlit is installed
+Found Streamlit version 1.66.1 in the environment
+Detected pyarrow 26.0.0 (known segfault, apache/arrow#50471). Replacing with pyarrow<25.
+Using uv pip install.
+Using Python 3.14.10 environment at: /home/adminuser/venv
+Resolved 1 package in 78ms
+Downloading pyarrow (46.6MiB)
+ Downloaded pyarrow
+Prepared 1 package in 717ms
+Uninstalled 1 package in 28ms
+Installed 1 package in 35ms
+ - pyarrow==26.0.0
+ + [2026-10-31 15:06:43.733800] pyarrow==24.0.0
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.14.10 environment at: /home/adminuser/venv
+Checked 1 package in 2ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[15:06:44] 🐍 Python dependencies were installed from /mount/src/bifs614expertproject_fall2026/requirements.txt using uv.
+Check if streamlit is installed
+Streamlit is already installed
+Collecting certifi>=2026.10.19
+  Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+Installing collected packages: certifi
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2026.10.23
+    Uninstalling certifi-2026.10.23:
+      Successfully uninstalled certifi-2026.10.23
+Successfully installed certifi-2026.10.23
+Collecting pip>=26.2.2
+  Downloading pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Downloading pip-26.2.2-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 79.9 MB/s  0:00:00[2026-10-31 15:06:46.953929] 
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 26.2.2
+    Uninstalling pip-26.2.2:
+      Successfully uninstalled pip-26.2.2
+Successfully installed pip-26.2.2
+[15:06:49] 📦 Processed dependencies!
+2026-10-31 15:06:51.438 Uvicorn server started on :::8501
+
+
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading course tutor...
+Using CPU.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s][2026-10-31 15:07:48.265672] Fetching 2 files:  50%|█████     | 1/2 [00:22<00:22, 22.80s/it][2026-10-31 15:07:57.739713] Fetching 2 files: 100%|██████████| 2/2 [00:32<00:00, 14.96s/it][2026-10-31 15:07:57.740838] Fetching 2 files: 100%|██████████| 2/2 [00:32<00:00, 16.14s/it]
+Loading weights:   0%|          | 0/195 [00:00<?, ?it/s][2026-10-31 15:07:59.806214] Loading weights:   1%|          | 1/195 [00:01<05:50,  1.81s/it]
+[15:05:58] 🚀 Starting up repository: 'bifs614expertproject_fall2026', branch: 'main', main module: 'CourseAgentV9Final_Streamlit.py'
+[15:05:58] 🐙 Cloning repository...
+[15:05:58] 🐙 Cloning into '/mount/src/bifs614expertproject_fall2026'...
+
+[15:05:58] 🐙 Cloned repository!
+[15:05:58] 🐙 Pulling code changes from Github...
+[15:05:59] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.14.10 environment at: /home/adminuser/venv
+Resolved 91 packages in 581ms
+Downloading torchvision (7.2MiB)
+Downloading nvidia-cuda-cupti (11.4MiB)
+Downloading sympy (6.0MiB)
+Downloading pygments (1.2MiB)
+Downloading nvidia-cuda-runtime (2.2MiB)
+Downloading numpy (15.9MiB)
+Downloading pyarrow (51.5MiB)
+Downloading nvidia-cufile (1.3MiB)
+Downloading transformers (12.4MiB)
+Downloading nvidia-cuda-cccl (3.7MiB)
+Downloading streamlit (9.9MiB)
+Downloading nvidia-cublas (386.1MiB)
+Downloading scipy (33.7MiB)[2026-10-31 15:06:00.050047] 
+Downloading nvidia-nccl-cu13 (206.0MiB)
+Downloading nvidia-nvshmem-cu13 (129.1MiB)
+Downloading hf-xet (4.1MiB)
+Downloading networkx [2026-10-31 15:06:00.051428] (2.0MiB)
+Downloading nvidia-cusparselt-cu13 [2026-10-31 15:06:00.052606] (162.3MiB)
+Downloading tokenizers (3.2MiB)
+Downloading triton (272.4MiB)
+Downloading nvidia-cuda-nvrtc (44.8MiB)
+Downloading pydeck (10.9MiB)
+Downloading nvidia-cusolver (217.4MiB)
+Downloading cuda-bindings (6.7MiB)[2026-10-31 15:06:00.054528] 
+Downloading nvidia-nvjitlink (40.5MiB)[2026-10-31 15:06:00.054988] 
+Downloading scikit-learn (8.7MiB)
+Downloading nvidia-cusparse [2026-10-31 15:06:00.056822] (144.0MiB)
+Downloading pillow (6.8MiB)
+Downloading nvidia-cufft (208.1MiB)
+Downloading pandas (11.5MiB)
+Downloading bitsandbytes (41.1MiB)
+Downloading nvidia-cudnn-cu13 (495.1MiB)[2026-10-31 15:06:00.062326] 
+Downloading torchaudio (1.7MiB)
+Downloading faiss-cpu (18.0MiB)
+Downloading torch (514.2MiB)
+ Downloaded pygments
+ Downloaded nvidia-cufile
+ Downloaded torchaudio
+ Downloaded networkx
+ Downloaded nvidia-cuda-runtime
+ Downloaded tokenizers
+ [2026-10-31 15:06:01.110160] Downloaded nvidia-cuda-cccl
+ Downloaded hf-xet
+ Downloaded sympy
+ Downloaded cuda-bindings
+ Downloaded pillow
+ Downloaded torchvision
+ Downloaded scikit-learn
+ Downloaded streamlit
+ Downloaded pydeck
+ Downloaded nvidia-cuda-cupti
+ Downloaded pandas
+ Downloaded transformers
+ Downloaded numpy
+ Downloaded faiss-cpu
+ Downloaded scipy
+ Downloaded nvidia-nvjitlink
+ Downloaded bitsandbytes
+ Downloaded nvidia-cuda-nvrtc
+ Downloaded pyarrow
+ Downloaded nvidia-nvshmem-cu13
+ Downloaded nvidia-cusparse
+ Downloaded nvidia-cusparselt-cu13
+ Downloaded nvidia-nccl-cu13
+ Downloaded nvidia-cufft
+ Downloaded nvidia-cusolver
+ Downloaded triton
+ Downloaded nvidia-cublas
+ Downloaded nvidia-cudnn-cu13
+ Downloaded torch
+Prepared 90 packages in 36.03s
+Installed 90 packages in 635ms
+ + accelerate==1.15.0
+ + altair==6.3.0
+ + annotated-doc==0.0.5
+ + anyio==4.15.[2026-10-31 15:06:36.692564] 1
+ + attrs==26.1.0
+ + bitsandbytes==0.50.2[2026-10-31 15:06:36.692799] 
+ + charset-normalizer==3.5.2
+ + click==8.5[2026-10-31 15:06:36.692993] .0
+ + cloudpickle==3.1.2
+ +[2026-10-31 15:06:36.693162]  cuda-bindings==13.4.4
+ + cuda-pathfinder==1[2026-10-31 15:06:36.693495] .8.5
+ + cuda-toolkit==13.2.2
+ [2026-10-31 15:06:36.693827] + faiss-cpu==1.15.1
+ + filelock[2026-10-31 15:06:36.694551] ==4.2.5
+ + fsspec==2026.9[2026-10-31 15:06:36.694717] .0
+ + h11==0.16.0
+ +[2026-10-31 15:06:36.694874]  hf-xet==1.8.0
+ + httpcore2==2.16.0
+ + httpx2==2.16.0[2026-10-31 15:06:36.695042] 
+ + huggingface-hub==2.4.0
+ + idna==3.20
+ [2026-10-31 15:06:36.695200] + itsdangerous==2.2.0
+ + jinja2==3[2026-10-31 15:06:36.695430] .1.6
+ + joblib==1.6.0
+ [2026-10-31 15:06:36.695641] + jsonschema==4.26.0
+ + jsonschema-specifications==2025[2026-10-31 15:06:36.695862] .9.1
+ + markdown-it-py==4.2.0
+ [2026-10-31 15:06:36.696021] + markupsafe==3.0.4
+ + mdurl==0.[2026-10-31 15:06:36.696167] 1.2
+ + mpmath==1.3.0
+ + narwhals[2026-10-31 15:06:36.696348] ==2.28.0
+ + networkx==3.7
+ +[2026-10-31 15:06:36.696503]  numpy==2.5.4
+ + nvidia-cublas==13.[2026-10-31 15:06:36.697241] 4.1.3
+ + nvidia-cuda-cccl==13.3.4.3.[2026-10-31 15:06:36.697401] 1
+ + nvidia-cuda-cupti==13.2.86
+ + nvidia-cuda-nvrtc[2026-10-31 15:06:36.697519] ==13.2.86
+ + nvidia-cuda-runtime==13.2.86[2026-10-31 15:06:36.697647] 
+ + nvidia-cudnn-cu13==9.26.0.51
+ + [2026-10-31 15:06:36.697902] nvidia-cufft==12.2.0.57
+ + nvidia-cufile==1.[2026-10-31 15:06:36.698204] 17.1.22
+ + nvidia-cusolver==12.2.0.11[2026-10-31 15:06:36.698743] 
+ + nvidia-cusparse==12.7.10.12
+ + nvidia-cusparselt-cu13[2026-10-31 15:06:36.698923] ==0.8.1
+ + nvidia-nccl-cu13==[2026-10-31 15:06:36.699103] 2.30.7
+ + nvidia-nvjitlink==13.4.92[2026-10-31 15:06:36.699314] 
+ + nvidia-nvshmem-cu13==3.7.2
+ + nvidia-nvtx==13.2.86
+ + packaging==26.3
+ + pandas==3.[2026-10-31 15:06:36.699557] 1.0
+ + pillow==13.0.0
+ + protobuf==7.36[2026-10-31 15:06:36.699716] .2
+ + psutil==7.2.2
+ +[2026-10-31 15:06:36.699907]  pyarrow==26.0.0
+ + pydeck==[2026-10-31 15:06:36.700036] 0.9.3
+ + pygments==2.21[2026-10-31 15:06:36.700127] .0
+ + python-dateutil==3.0.0
+ + python-multipart==0.0.33
+ + [2026-10-31 15:06:36.700373] pyyaml==6.0.3
+ + referencing==[2026-10-31 15:06:36.701234] 0.37.0
+ + regex==2026.9.[2026-10-31 15:06:36.701377] 29
+ + requests==2.34.2
+ [2026-10-31 15:06:36.701485] + rich==15.0.0
+ + [2026-10-31 15:06:36.701568] rpds-py==2026.9.1
+ + safetensors==0[2026-10-31 15:06:36.701645] .8.0
+ + scikit-learn==1.9.1[2026-10-31 15:06:36.701741] 
+ + scipy==1.18.1
+ +[2026-10-31 15:06:36.702253]  sentence-transformers==6.2.0
+ + setuptools[2026-10-31 15:06:36.702376] ==84.2.1
+ + shellingham==1.[2026-10-31 15:06:36.702464] 5.4
+ + six==1.17.0[2026-10-31 15:06:36.702540] 
+ + starlette==1.10.0
+ +[2026-10-31 15:06:36.702633]  streamlit==1.66.1
+ + sympy[2026-10-31 15:06:36.702719] ==1.14.0
+ + threadpoolctl==3[2026-10-31 15:06:36.702785] .7.0
+ + tokenizers==0.23.[2026-10-31 15:06:36.702850] 3
+ + torch==2.15.0
+ + torchaudio==[2026-10-31 15:06:36.702922] 2.11.1
+ + torchvision==0.29.2
+ + tqdm==4.70.1
+ [2026-10-31 15:06:36.702997] + transformers==5[2026-10-31 15:06:36.703582] .22.1
+ + triton==3.9.0
+ + truststore==0.10.5
+ + typer==0.27.3
+ + typing-extensions==4.16.0
+ + tzdata==2026.6
+ + urllib3==2.8.0
+ + uvicorn==0.54.0
+ + watchdog==6.0.0
+ + websockets==17.4
+Collecting certifi>=2026.10.19
+  Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+Installing collected packages: certifi
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2026.10.23
+    Uninstalling certifi-2026.10.23:
+      Successfully uninstalled certifi-2026.10.23
+Successfully installed certifi-2026.10.23
+Collecting pip>=26.2.2
+  Downloading pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Downloading pip-26.2.2-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 68.2 MB/s  0:00:00[2026-10-31 15:06:38.696182] 
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 26.2.2
+    Uninstalling pip-26.2.2:
+      Successfully uninstalled pip-26.2.2
+Successfully installed pip-26.2.2
+Checking if Streamlit is installed
+Found Streamlit version 1.66.1 in the environment
+Detected pyarrow 26.0.0 (known segfault, apache/arrow#50471). Replacing with pyarrow<25.
+Using uv pip install.
+Using Python 3.14.10 environment at: /home/adminuser/venv
+Resolved 1 package in 78ms
+Downloading pyarrow (46.6MiB)
+ Downloaded pyarrow
+Prepared 1 package in 717ms
+Uninstalled 1 package in 28ms
+Installed 1 package in 35ms
+ - pyarrow==26.0.0
+ + [2026-10-31 15:06:43.733800] pyarrow==24.0.0
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.14.10 environment at: /home/adminuser/venv
+Checked 1 package in 2ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[15:06:44] 🐍 Python dependencies were installed from /mount/src/bifs614expertproject_fall2026/requirements.txt using uv.
+Check if streamlit is installed
+Streamlit is already installed
+Collecting certifi>=2026.10.19
+  Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+Installing collected packages: certifi
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2026.10.23
+    Uninstalling certifi-2026.10.23:
+      Successfully uninstalled certifi-2026.10.23
+Successfully installed certifi-2026.10.23
+Collecting pip>=26.2.2
+  Downloading pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Downloading pip-26.2.2-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 79.9 MB/s  0:00:00[2026-10-31 15:06:46.953929] 
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 26.2.2
+    Uninstalling pip-26.2.2:
+      Successfully uninstalled pip-26.2.2
+Successfully installed pip-26.2.2
+[15:06:49] 📦 Processed dependencies!
+2026-10-31 15:06:51.438 Uvicorn server started on :::8501
+
+
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading course tutor...
+Using CPU.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s][2026-10-31 15:07:48.265672] Fetching 2 files:  50%|█████     | 1/2 [00:22<00:22, 22.80s/it][2026-10-31 15:07:57.739713] Fetching 2 files: 100%|██████████| 2/2 [00:32<00:00, 14.96s/it][2026-10-31 15:07:57.740838] Fetching 2 files: 100%|██████████| 2/2 [00:32<00:00, 16.14s/it]
+Loading weights:   0%|          | 0/195 [00:00<?, ?it/s][2026-10-31 15:07:59.806214] Loading weights:   1%|          | 1/195 [00:01<05:50,  1.81s/it]
